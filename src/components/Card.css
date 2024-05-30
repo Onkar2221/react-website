@@ -1,0 +1,11 @@
+.card-img-top {
+  height: 13rem;
+  width: 100%;
+}
+.card {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}

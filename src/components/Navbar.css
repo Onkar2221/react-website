@@ -1,0 +1,13 @@
+.logo {
+  height: 5rem;
+  width: 6rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: purple;
+  color: white;
+  border-radius: 45%;
+}
