@@ -37,7 +37,10 @@ const About = () => {
         <div className="container text-center mt-3">
           <div className="row justify-content-center align-items-center g-2">
             {Data2.map((values) => (
-              <div key={values.id} className="col-xs-12 col-sm-6 col-md-4 my-4">
+              <div
+                key={values.id}
+                className="col-xs-12  col-md-5 col-xl-4   my-4"
+              >
                 <Card title={values.title} image={values.image} />
               </div>
             ))}
